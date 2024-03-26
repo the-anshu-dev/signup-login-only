@@ -40,24 +40,6 @@ export class UsersController {
         return getUser
       }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   // there is 2 @Post : so it called only 1  : Top one
 
 

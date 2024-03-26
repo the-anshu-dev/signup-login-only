@@ -33,7 +33,6 @@ export class UsersService {
 
   async signIn(loginUserDto:LoginUserDto){
     const res=  await this.model.findOne({},{},{lean:true})
-
        if(res)
        {
         return {
